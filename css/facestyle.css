@@ -126,6 +126,10 @@ h1 {
   text-decoration: underline;
 }
 
+.footer p {
+  padding: 15px;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .headline h1 {
