@@ -27,6 +27,11 @@ h1 {
   color: #d32f2f;
 }
 
+h4 {
+  text-align: center;
+  margim-bottom: 20px;
+}
+
 /* Imagem com Link */
 .image-container a img {
   max-width: 100%;
