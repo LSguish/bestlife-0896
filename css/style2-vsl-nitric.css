@@ -54,8 +54,12 @@
     /* Texto Final */
     h2 {
       font-size: 20px;
-      color: #FFE400;
+      color: #000;
       margin: 15px 0;
+    }
+
+    span h2 {
+      color: #5cc7fb;
     }
 
     p {
