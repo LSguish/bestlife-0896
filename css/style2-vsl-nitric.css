@@ -42,13 +42,13 @@
       position: relative;
       width: 100%;
       margin-bottom: 20px; /* Adiciona espaço abaixo do vídeo */
+      border: 4px solid white; 
+      box-sizing: border-box;
     }
 
     .video-container div {
       width: 100%;
       height: 100%;
-      border: 4px solid white; 
-      box-sizing: border-box;
     }
 
     /* Texto Final */
