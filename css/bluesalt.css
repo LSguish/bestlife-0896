@@ -37,8 +37,8 @@ body {
 
 /* Popup */
 .popup {
-  background-color: rgba(255, 255, 255, 1.0);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  background-color: #000000;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   padding: 0px 20px 20px 20px;
   width: calc(100% - 40px);
@@ -51,13 +51,13 @@ body {
 
 /* Título */
 .popup h3 {
-  font-size: 16px;
-  color: #333;
+  font-size: 18px;
+  color: #fff;
   margin-bottom: 15px;
 }
 .popup p {
   font-size: 16px;
-  color: #333;
+  color: #cccccc;
   margin-bottom: 15px;
 }
 
@@ -74,7 +74,19 @@ body {
 .button-link {
   padding: 12px 24px;
   font-size: 20px;
-  background-color: #121212;
+  background-color: #ffa31a;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-link2 {
+  padding: 12px 24px;
+  font-size: 20px;
+  background-color: #3f3f3f;
   color: #fff;
   text-decoration: none;
   border: none;
